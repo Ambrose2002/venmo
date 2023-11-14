@@ -4,6 +4,8 @@ import json
 
 # From: https://goo.gl/YzypOI
 def singleton(cls):
+    """prevents the initialization of multiple instances of the database
+    """
     instances = {}
 
     def getinstance():
